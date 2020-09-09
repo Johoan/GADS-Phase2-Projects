@@ -26,47 +26,48 @@ In this lab, you will learn how to perform the following tasks:
     
     1. In the SSH session, to update the Debian package list, execute the following command:
 
-        sudo apt-get update
+           sudo apt-get update
 
     2. To install Git, execute the following command:
 
-        sudo apt-get install git
+           sudo apt-get install git
 
        If prompted, press Enter.    
 
     3. To download the Node.js setup script, execute the following command:
 
-        curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+           curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
     4. To install npm and Node.js, execute the following command:
-        sudo apt install nodejs   
+    
+           sudo apt install nodejs   
 
 
 3. Configure the VM to Run Application Software
 
     1. To check the version of Node.js, execute the following command:
         
-        node -v
+           node -v
 
     2. To clone the class repository, execute the following command:
 
-        git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+           git clone https://github.com/GoogleCloudPlatform/training-data-analyst
     
     3. To change the working directory, execute the following command:
 
-        cd ~/training-data-analyst/courses/developingapps/nodejs/devenv/
+           cd ~/training-data-analyst/courses/developingapps/nodejs/devenv/
 
     4. To run a simple web server, execute the following command:
 
-        sudo node server/app.js
+           sudo node server/app.js
 
     5. To install the Node.js library for Compute Engine, execute the following command:
 
-        npm install
+           npm install
 
     6. To run a simple Node.js application that lists Compute Engine instances, execute the following command:
 
-        node list-gce-instances.js
+           node list-gce-instances.js
 
        Many details about your machine should appear in the terminal window.
 
